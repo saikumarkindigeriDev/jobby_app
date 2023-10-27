@@ -9,13 +9,16 @@ const JobCardItem = props => {
   const {
     companyLogoUrl,
     employmentType,
-    id,
+
     jobDescription,
     location,
     packagePerAnnum,
     rating,
     title,
+    id,
   } = jobData
+
+  console.log(jobData)
 
   return (
     <Link to={`/jobs/${id}`} className="link-item">

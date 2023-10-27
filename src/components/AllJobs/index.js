@@ -137,6 +137,7 @@ class AllJobs extends Component {
         packagePerAnnum: eachJobData.package_per_annum,
         rating: eachJobData.rating,
         title: eachJobData.title,
+        id: eachJobData.id,
       }))
 
       this.setState({
@@ -154,7 +155,6 @@ class AllJobs extends Component {
 
   onGetInputOption = e => {
     const {activeCheckBoxes} = this.state
-    console.log(activeCheckBoxes)
 
     const inputsList = activeCheckBoxes.filter(
       eachInput => eachInput === e.target.id,

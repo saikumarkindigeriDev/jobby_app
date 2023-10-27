@@ -25,7 +25,7 @@
 .form-label {
   color: #ffffff;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Roboto';
 }
 
@@ -38,6 +38,9 @@
   border-radius: 5px;
   margin-top: 5px;
   font-size: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 5px;
 }
 
 .form-submit-button {
