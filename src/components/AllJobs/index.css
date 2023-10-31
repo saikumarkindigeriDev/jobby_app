@@ -1,6 +1,6 @@
 .all-jobs-container {
   background-color: #000000;
-  padding: 40px;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,9 +49,8 @@
 
 .text {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 25px;
+
+  font-size: 15px;
 }
 
 .check-boxes-container {

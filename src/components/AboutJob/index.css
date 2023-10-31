@@ -14,7 +14,7 @@
   color: #ffffff;
 }
 
-.img-title-container {
+.image-title-container {
   display: flex;
   flex-direction: row;
   margin-top: 0;
@@ -22,7 +22,9 @@
 }
 
 .title-rating-container {
-  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .company-logo {
@@ -35,13 +37,12 @@
   color: #ffffff;
   margin-top: 0;
   margin-left: 5px;
-  margin-bottom: 15px;
 }
 
 .star-rating-container {
   display: flex;
   flex-direction: row;
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 .star-icon {
@@ -66,18 +67,20 @@
 .location-job-type-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   width: 40%;
 }
 
 .location-icon-location-container {
   display: flex;
   flex-direction: row;
+  margin-right: 20px;
 }
 
 .location-icon {
   color: #ffffff;
   font-size: 20px;
+  margin-right: 5px;
 }
 
 .location {
@@ -182,13 +185,18 @@
 }
 
 .skill-img {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   margin-right: 10px;
 }
 
 .similar-jobs-heading {
   color: #ffffff;
+}
+
+.employment-type-icon-employment-type-container {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 768px) {

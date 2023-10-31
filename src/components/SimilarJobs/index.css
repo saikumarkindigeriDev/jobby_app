@@ -23,19 +23,18 @@
 
 .logo-title-container {
   display: flex;
+
+  margin-bottom: 7px;
   align-items: center;
 }
 
 .company-logo {
-  width: 70px;
-  height: 70px;
-  margin-right: 20px;
+  width: 100%;
 }
 
 .title-rating-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .title-heading {

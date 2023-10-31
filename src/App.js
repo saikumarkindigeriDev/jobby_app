@@ -7,6 +7,7 @@ import NotFound from './components/NotFound'
 import AboutJob from './components/AboutJob'
 
 import AllJobs from './components/AllJobs'
+import './App.css'
 
 const App = () => (
   <Switch>

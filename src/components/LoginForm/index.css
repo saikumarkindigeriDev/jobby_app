@@ -9,7 +9,7 @@
 }
 
 .login-form-container {
-  width: 40%;
+  width: 30%;
   padding: 40px;
   border-radius: 10px;
   background-color: #272727;
@@ -24,7 +24,7 @@
 
 .form-label {
   color: #ffffff;
-  font-weight: 500;
+
   font-size: 15px;
   font-family: 'Roboto';
 }

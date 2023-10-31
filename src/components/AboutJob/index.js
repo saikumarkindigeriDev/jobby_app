@@ -2,6 +2,7 @@ import {Component} from 'react'
 import Cookies from 'js-cookie'
 
 import {MdLocationOn} from 'react-icons/md'
+import {BsFillBriefcaseFill} from 'react-icons/bs'
 import {AiFillStar} from 'react-icons/ai'
 import {BiLinkExternal} from 'react-icons/bi'
 
@@ -124,7 +125,7 @@ class AboutJob extends Component {
               <div className="image-title-container">
                 <img
                   src={companyLogoUrl}
-                  className="company logo"
+                  className="company-logo"
                   alt="job details company logo"
                 />
                 <div className="title-rating-container">
@@ -142,6 +143,7 @@ class AboutJob extends Component {
                     <p className="location">{location}</p>
                   </div>
                   <div className="employment-type-icon-employment-type-container">
+                    <BsFillBriefcaseFill className="location-icon" />
                     <p className="job-type">{employmentType}</p>
                   </div>
                 </div>

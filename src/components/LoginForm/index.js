@@ -67,7 +67,11 @@ class LoginForm extends Component {
           onSubmit={this.onSubmitLoginForm}
         >
           <div className="form-logo-container">
-            <img src={logoImg} alt="website logo" />
+            <img
+              src={logoImg}
+              alt="website logo"
+              className="login-logo-image"
+            />
           </div>
           <label className="form-label" htmlFor="username">
             USERNAME

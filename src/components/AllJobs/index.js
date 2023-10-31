@@ -287,9 +287,14 @@ class AllJobs extends Component {
       <div className="no-jobs-container">
         <img className="no-jobs-img" src={failureViewImg} alt="no jobs" />
         <h1>No Jobs Found</h1>
-        <p>We could find any jobs. Try other filters </p>
+        <p>We could not find any jobs. Try other filters </p>
       </div>
     )
+  }
+
+  retryJobs = () => {
+    this.getJobsData()
+    this.getProfileData()
   }
 
   renderJobsFailureView = () => (
@@ -338,10 +343,10 @@ class AllJobs extends Component {
           <div className="side-bar-container">
             {this.renderProfileStatus()}
             <hr className="hr-line" />
-            <h1 type="text">Type of Employment </h1>
+            <h1 className="text">Type of Employment </h1>
             {this.onGetCheckBoxesView()}
             <hr className="hr-line" />
-            <h1 type="text">Salary Range </h1>
+            <h1 className="text">Salary Range </h1>
             {this.onGetRadioButtonsView()}
           </div>
           <div className="jobs-container">
